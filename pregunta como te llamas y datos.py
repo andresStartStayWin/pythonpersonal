@@ -2,23 +2,24 @@ print("Hola cómo te llamás?")
 nombre = input()
 print("Mucho gusto " + nombre)
 print("El largo de tu nombre es:")
+print(len(nombre), " letras")
 
 #contador de espacio en blanco
-def check_space(nombre):
+def espacios(nombre):
      
-    count = 0
+    contar = 0
      
     for i in nombre:
          
         if i == " ":
-            count += 1
+            contar += 1
          
-    return count
-name = check_space(nombre)
+    return contar
+restar = espacios(nombre)
 #acá termina el contador de espacios
 
 #al largo del nombre le resta los espacios
-print(str(len(nombre) - int(name)) + " letras")
+###print(str(len(nombre) - int(restar)) + " letras")
 
 
 print("¿Cuántos años tenés?")
@@ -46,14 +47,22 @@ num2 = input()
 
 import random
 numrand = random.randint(0, 99)
+numrand2 = random.randint(0, 99)
 print("La respuesta es ", numrand)
 
 print("Está correcto?")
 input()
 
-print("Era broma :D!")
 
-print("La suma TOTAL es " + str(int(num1) + int(num2)))
+print("Uh esperá!")
+print("Me dí cuenta que tenía la calculadora en radianes!!!")
+
+
+print("La suma TOTAL de ",num1, " + ", num2, " es " + str(int(num1) + int(num2)))
+
+print(" ")
+print("Ahora si? :D")
+print("Bueno, eso es todo amigos, nos vemos en otra edición de NivelX con Bobby Goma!!")
 
 #con éste input te deja abierto el programa
 input()

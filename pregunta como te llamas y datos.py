@@ -2,7 +2,7 @@ print("Hola cómo te llamás?")
 nombre = input()
 print("Mucho gusto " + nombre)
 print("El largo de tu nombre es:")
-print(len(nombre), " letras")
+#print(len(nombre), " letras")
 
 #contador de espacio en blanco
 def espacios(nombre):
@@ -16,24 +16,23 @@ def espacios(nombre):
          
     return contar
 restar = espacios(nombre)
-#acá termina el contador de espacios
+#ac  termina el contador de espacios
 
 #al largo del nombre le resta los espacios
-###print(str(len(nombre) - int(restar)) + " letras")
+print(str(len(nombre) - int(restar)) + " letras")
 
 
-print("¿Cuántos años tenés?")
+print("Cuántos años tenés?")
 edad = input()
 print("Vas a tener " + str(int(edad) + 3) + " en 3 años")
 print("Aceptás un desafío?")
-
 
 desafio = input()
 desafiosi = ["Si", "si", "s", "S", "yes", "Yes", "y", "Y"]
 desafiono = ["No", "no", "n", "N"]
 
 if desafio in desafiosi:
-    print("Genial, qué valiente!")
+    print("Genial, que valiente!")
 elif desafio in desafiono:
     print("Dijiste -No-, pero te lo digo igual :D")
 else:
@@ -64,5 +63,5 @@ print(" ")
 print("Ahora si? :D")
 print("Bueno, eso es todo amigos, nos vemos en otra edición de NivelX con Bobby Goma!!")
 
-#con éste input te deja abierto el programa
+#con este input te deja abierto el programa hasta apretar cualquier letra
 input()

@@ -19,7 +19,7 @@ def funcion(variable):
 #la variable puede ser ya dada, o crearla con input()
 
 ##opciones
-##print("Escribí la cantidad de h que quieras")
+##print("Escribí la cantidad de h que quieras") 
 ##variable = input()
 variable = "hola hola hola hhh"
 

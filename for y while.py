@@ -3,11 +3,11 @@ while i < 10:
     i = i + 1
     print(i)
 
-def funcion(variable):
-    cont = 0
-    for i in variable:
+def fun(var):
+    contador = 0
+    for i in var:
         if i == " ":
-            cont += 1
-    return cont
-variable = input()
-print(funcion(variable))
+            contador += 1
+    return contador
+var = input()
+print(fun(var))
